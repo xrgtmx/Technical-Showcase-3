@@ -1,0 +1,164 @@
+/*
+  main.css
+  -----------------------------------------
+  Technical Showcase 3
+  Website designed by Ryan "xRGTMx" Gudonis
+  © 2017
+*/
+
+/* Mobile Enhancement */
+html { 
+	-webkit-text-size-adjust: none; 
+}
+@-ms-viewport { 
+	width: device-width; 
+}
+/* Body, Containers, Wrappers */
+html, body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  background: #fff;
+	color: #231f20;
+	font-family: "Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+html, body, .container-full, .container-wrap {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.container-wrap td { 
+	vertical-align: middle; 
+	text-align: center;
+}
+b, strong, h2, th {
+  font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1em;
+}
+h1 {
+  font-size: 6em;
+  font-weight: 100;
+  letter-spacing: -0.0625em;
+  margin-top: 0.25em;
+}
+a, a:visited {
+  color: #09f;
+  transition: 0.15s;
+}
+a:hover, a:active {
+  color: #06f;
+}
+hr { margin: 1.5em 0;}
+
+/* Deadline Navbar */
+nav.navbar#deadline {
+  font-size: 14px;
+  background: #c00;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+nav.navbar#deadline span {
+  margin: 0 auto;
+  line-height: 1.1em;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: rgba(0,0,0,0.1) 0 1px 0;
+}
+.navbar-brand img {
+}
+li.nav-item.active a.nav-link {
+  color: #c00 !important;
+}
+
+/* Big Boy Submit Section */
+div#bigboy {
+  background: #c00;
+  background: -webkit-linear-gradient(#f00,#c04);
+  background: linear-gradient(#f00,#c06);
+  color: #fff;
+  margin-top: 2em;
+  padding: 15% 0;
+  box-shadow: rgba(0,0,0,0.25) 0 0 1em inset;
+}
+div#bigboy a {
+  color: #fff;
+  font-weight: bold;
+}
+a#bigbutton, a#bigbutton:visited {
+  padding: 0.5em 0.75em;
+  border: 4px solid #fff;
+  border-radius: 0.333em;
+  font-size: 4em;
+  font-weight: 300 !important;
+  letter-spacing: -0.03125em;
+  line-height: 1em;
+  text-decoration: none;
+}
+a#bigbutton:hover, a#bigbutton:active {
+  background: #fff;
+  color: #c00;
+  border-radius: 0;
+  letter-spacing: 0.03125em;
+}
+div#bigboy p {
+  margin-top: 4em;
+}
+
+/* Footer */
+footer {
+  background: #231f20;
+  color: #fff;
+  font-size: 75%;
+  line-height: 1.25em;
+  padding: 1em 0.5em;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  html, body { 
+    font-size: 16px; 
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 5em;
+  }
+  a#bigbutton, a#bigbutton:visited {
+    padding: 0.5em 0.75em;
+    border: 3px solid #fff;
+    border-radius: 0.333em;
+    font-size: 3em;
+  }
+  div#bigboy {
+    padding: 20% 0;
+  }
+  div#bigboy p {
+    margin-top: 3em;
+  }
+}
+@media (max-width: 575px) {
+  html, body { font-size: 14px; }
+  h1 {
+    font-size: 4em;
+  }
+  a#bigbutton, a#bigbutton:visited {
+    font-size: 2em;
+    border: 2px solid #fff;
+  }
+  div#bigboy {
+    padding: 25% 0;
+  }
+  div#bigboy p {
+    margin-top: 2em;
+  }
+}

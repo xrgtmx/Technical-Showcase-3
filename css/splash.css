@@ -1,0 +1,78 @@
+/* Splash Section */
+div#splash {
+  background-color: #000;
+  background-image: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div#splash h1 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-shadow: rgba(0,0,0,0.75) 0 0 0.25em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 0.5s;
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+div#splash h1 span {
+  color: #c00;
+  font-size: 125%;
+}
+div#splash a, div#splash a:visited {
+  color: #fff;
+  font-size: 125%;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 0.25em;
+  padding: 0.5em 0.75em;
+}
+div#splash a:hover, div#splash a:active {
+  background: #fff;
+  color: #c00;
+  letter-spacing: 2px;
+  border-radius: 0;
+}
+div#splash a {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 1.5s;
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/* Animation */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Media Queries */
+@media (max-width: 1199px) {
+  div#splash h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.375em;
+  }
+  div#splash a {
+    font-size: 112.5%;
+  }
+}
+@media (max-width: 991px) {
+  div#splash h1 {
+    font-size: 3em;
+  }
+  div#splash a {
+    font-size: 100%;
+  }
+}
+@media (max-width: 575px) {
+  div#splash h1 {
+    font-size: 2.5em;
+  }
+}
