@@ -1,0 +1,23 @@
+/*
+  guidelines.css
+  -----------------------------------------
+  Technical Showcase 3
+  Website designed by Ryan "xRGTMx" Gudonis
+  © 2017
+*/
+
+/* Rubric Table */
+table#rubric {
+  width: 100%;
+  border-collapse: collapse;
+}
+table#rubric th {
+  border-bottom: 1px solid #231f20;
+}
+table#rubric td {
+  border-bottom: 1px solid #ccc;
+}
+table#rubric tr.total td {
+  font-style: italic;
+  border-bottom: none;
+}
