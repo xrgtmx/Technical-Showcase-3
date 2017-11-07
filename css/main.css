@@ -22,7 +22,7 @@ html, body {
   background: #fff;
 	color: #231f20;
 	font-family: "Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.5em;
 }
@@ -100,7 +100,7 @@ a#bigbutton, a#bigbutton:visited {
   border: 4px solid #fff;
   border-radius: 0.333em;
   font-size: 4em;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   letter-spacing: -0.03125em;
   line-height: 1em;
   text-decoration: none;
