@@ -28,25 +28,40 @@ div.prize-box div.prize-first, div.prize-box div.prize-second, div.prize-box div
   padding: 0.5em 0.125em;
 }
 div.prize-box div.prize-header {
-  background: #ddd;
+  color: #fff;
 }
 div.prize-box div.prize-first {
-  background: #fff3cc;
+  background: #ffefbf;
+  background: -webkit-linear-gradient(#ffefbf,#ffdf80);
+  background: -o-linear-gradient(#ffefbf,#ffdf80);
+  background: -moz-linear-gradient(#ffefbf,#ffdf80);
+  background: linear-gradient(#ffefbf,#ffdf80);
 }
 div.prize-box div.prize-first h4 { 
-  color: #ffbf00; 
+  color: #ffbf00;
+  text-shadow: #bf8f00 1px 1px;
 }
 div.prize-box div.prize-second {
-  background: #e5f2ff;
+  background: #e6ecf2;
+  background: -webkit-linear-gradient(#e6ecf2,#c3d4e5);
+  background: -o-linear-gradient(#e6ecf2,#c3d4e5);
+  background: -moz-linear-gradient(#e6ecf2,#c3d4e5);
+  background: linear-gradient(#e6ecf2,#c3d4e5);
 }
 div.prize-box div.prize-second h4 {
   color: #acb6bf;
+  text-shadow: #737a80 1px 1px;
 }
 div.prize-box div.prize-third {
-  background: #fca;
+  background: #ffd9b2;
+  background: -webkit-linear-gradient(#ffd9b2,#f2b06d);
+  background: -o-linear-gradient(#ffd9b2,#f2b06d);
+  background: -moz-linear-gradient(#ffd9b2,#f2b06d);
+  background: linear-gradient(#ffd9b2,#f2b06d);
 }
 div.prize-box div.prize-third h4 {
   color: #c60;
+  text-shadow: #804000 1px 1px;
 }
 @media (max-width: 1199px) {
   div.prize-box h3 {
