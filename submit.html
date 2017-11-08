@@ -35,13 +35,15 @@
   <link rel="apple-touch-icon-precomposed" href="img/ts3-identity-180.png">
   <meta name="msapplication-TileImage" content="img/ts3-identity-270.png">
   <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,600">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,600|Roboto:100" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/submit.css">
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="js/countdown.js"></script>
 </head>
 <body>
   <!-- Header -->
@@ -124,6 +126,32 @@
         <p>List in the subject or body of your email which round your submission is for (Round 1, Redemption Finals, Grand Finals).</p>
         <p>Upon submitting your simfile, please fill out this <a href="#">submission form</a>.</p>
         <p>After the deadline of each round, the judging period will be about a week before the results are announced and the winners/finalists are known.</p>
+      </div>
+    </div>
+    <!-- Countdown -->
+    <div class="row" style="margin: 2em 0;">
+      <div class="col-12">
+        <div class="countdown text-white bg-danger">
+          <p>Round 1 ends on <strong>December 24, 2017 @ 11:59 PM EST</strong></p>
+          <div class="row justify-content-center">
+            <div class="col-3 col-md-2">
+              <h1 id="days">00</h1>
+              <p>Days</p>
+            </div>
+            <div class="col-3 col-md-2">
+              <h1 id="hours">00</h1>
+              <p>H<span class="hidden-xs-down">ou</span>rs</p>
+            </div>
+            <div class="col-3 col-md-2">
+              <h1 id="minutes">00</h1>
+              <p>Min<span class="hidden-xs-down">utes</span></p>
+            </div>
+            <div class="col-3 col-md-2">
+              <h1 id="seconds">00</h1>
+              <p>Sec<span class="hidden-xs-down">onds</span></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
