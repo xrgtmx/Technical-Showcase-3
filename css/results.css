@@ -1,0 +1,142 @@
+/*
+  results.css
+  -----------------------------------------
+  Technical Showcase 3
+  Website designed by Ryan "xRGTMx" Gudonis
+  © 2017
+*/
+
+/* Winners, not LOOSERS... */
+div.row.winner {
+  margin: 0 0.2em 1em;
+  line-height: 1em;
+  border: 1px solid;
+  border-radius: 0.25em;
+}
+div.row.winner div.place {
+  text-align: center;
+}
+div.row.winner div.place h3 {
+  font-size: 4em;
+  font-weight: bold;
+}
+div.row.winner div.simfile {
+  padding: 1em;
+}
+div.row.winner div.simfile h4 {
+  font-size: 3em;
+}
+div.row.winner div.simfile h5 {
+  font-size: 1.5em;
+}
+div.row.winner.first {
+  background: #ffefbf;
+  background: -webkit-linear-gradient(#ffefbf,#ffdf80);
+  background: -o-linear-gradient(#ffefbf,#ffdf80);
+  background: -moz-linear-gradient(#ffefbf,#ffdf80);
+  background: linear-gradient(#ffefbf,#ffdf80);
+  border-color: #ffdf80;
+}
+div.row.winner.first div.place h3 {
+  color: #ffbf00;
+  text-shadow: #bf8f00 0.025em 0.025em;
+}
+div.row.winner.first div.simfile {
+  background: #fff5d9;
+  color: #bf8f00;
+}
+div.row.winner.second {
+  background: #e6ecf2;
+  background: -webkit-linear-gradient(#e6ecf2,#c3d4e5);
+  background: -o-linear-gradient(#e6ecf2,#c3d4e5);
+  background: -moz-linear-gradient(#e6ecf2,#c3d4e5);
+  background: linear-gradient(#e6ecf2,#c3d4e5);
+  border-color: #c3d4e5;
+}
+div.row.winner.second div.place h3 {
+  color: #acb6bf;
+  text-shadow: #737a80 0.025em 0.025em;
+}
+div.row.winner.second div.simfile {
+  background: #edf1f5;
+  color: #737a80;
+}
+div.row.winner.third {
+  background: #ffd9b2;
+  background: -webkit-linear-gradient(#ffd9b2,#f2b06d);
+  background: -o-linear-gradient(#ffd9b2,#f2b06d);
+  background: -moz-linear-gradient(#ffd9b2,#f2b06d);
+  background: linear-gradient(#ffd9b2,#f2b06d);
+  border-color: #f2b06d;
+}
+div.row.winner.third div.place h3 {
+  color: #c60;
+  text-shadow: #804000 0.025em 0.025em;
+}
+div.row.winner.third div.simfile {
+  background: #ffecd9;
+  color: #804000;
+}
+
+/* Media Queries for Winners, not LOOSERS... */
+@media (max-width: 1199px) {
+  div.row.winner div.place h3 {
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 991px) {
+  div.row.winner div.place h3 {
+    font-size: 3em;
+  }
+  div.row.winner div.simfile h4 {
+    font-size: 2.5em;
+  }
+  div.row.winner div.simfile h5 {
+    font-size: 1.25em;
+  }
+  div.row.winner div.simfile p {
+    font-size: 0.9375em;
+  }
+}
+@media (max-width: 767px) {
+  div.row.winner div.place h3 {
+    font-size: 2.5em;
+  }
+  div.row.winner div.simfile h4 {
+    font-size: 2em;
+  }
+  div.row.winner div.simfile h5 {
+    font-size: 1.125em;
+  }
+  div.row.winner div.simfile p {
+    font-size: 0.875em;
+  }
+}
+@media (max-width: 575px) {
+  div.row.winner div.simfile h4 {
+    font-size: 1.75em;
+  }
+  div.row.winner div.simfile h5 {
+    font-size: 1em;
+  }
+  div.row.winner div.simfile p {
+    font-size: 0.75em;
+  }
+}
+
+/* Horizontally Scrolling Tables */
+div.scrolltable {
+  display: block; 
+  overflow-x: auto;
+}
+div.scrolltable table {
+  font-size: 75%;
+  white-space: nowrap;
+}
+div.scrolltable th.judge {
+  min-width: 5em;
+}
+div.scrolltable th.total, div.scrolltable td.total {
+  min-width: 4.5em;
+  font-weight: bold;
+}

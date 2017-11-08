@@ -37,6 +37,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,600">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/guidelines.css">
   <!-- Scripts -->
@@ -47,7 +48,7 @@
 <body>
   <!-- Header -->
   <!-- Deadline -->
-  <nav class="navbar bg-danger" id="deadline">
+  <nav class="navbar deadline bg-danger">
     <span><strong>Round 1 Deadline:</strong> Insert Date Here</span>
   </nav>
   <!-- Navbar -->
@@ -154,17 +155,17 @@
       <div class="col-12">
         <h2>Grading Rubric</h2>
       </div>
-      <div class="col-sm-6 col-md-8">
+      <div class="col-md-8">
         <p>All simfile submissions will be graded by the <a href="about.html#judges">five judges</a> based on five different categories. Each category consists of either 10 or 5 points. A judge can grade a file up to 45 points, but the lowest judged score will be removed from the total. Therefore, the highest amount of points a simfile can receive is 180 points.</p>
         <p>Key note that all judges have specific tastes on what they believe is a quality simfile, so opinions will vary.</p>
       </div>
       <!-- Grading Table -->
-      <div class="col-sm-6 col-md-4">
+      <div class="col-md-4">
         <table id="rubric">
           <!-- Table Head -->
           <thead>
             <tr>
-              <th>Category</th>
+              <th colspan="2">Category</th>
               <th>Points</th>
             </tr>
           </thead>
@@ -172,32 +173,37 @@
           <tbody>
             <!-- Structure -->
             <tr>
+              <td style="width: 1.5em;" align="center"><i class="fa fa-code-fork" aria-hidden="true"></i></td>
               <td>Structure</td>
               <td>10</td>
             </tr>
             <!-- Patterning -->
             <tr>
+              <td align="center"><i class="fa fa-arrows" aria-hidden="true"></i></td>
               <td>Patterning</td>
               <td>10</td>
             </tr>
             <!-- Rhythms -->
             <tr>
+              <td align="center"><i class="fa fa-music" aria-hidden="true"></i></td>
               <td>Rhythms</td>
               <td>10</td>
             </tr>
             <!-- Originality -->
             <tr>
+              <td align="center"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></td>
               <td>Originality</td>
               <td>10</td>
             </tr>
             <!-- Replayability -->
             <tr>
+              <td align="center"><i class="fa fa-refresh" aria-hidden="true"></i></td>
               <td>Replayability</td>
               <td>5</td>
             </tr>
             <!-- Total -->
             <tr class="total">
-              <td>Total</td>
+              <td colspan="2">Total</td>
               <td>45</td>
             </tr>
           </tbody>

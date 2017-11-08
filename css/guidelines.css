@@ -18,6 +18,7 @@ table#rubric td {
   border-bottom: 1px solid #ccc;
 }
 table#rubric tr.total td {
+  font-size: 125%;
   font-style: italic;
   border-bottom: none;
 }

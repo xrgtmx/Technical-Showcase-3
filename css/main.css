@@ -59,13 +59,13 @@ a:hover, a:active {
 hr { margin: 1.5em 0;}
 
 /* Deadline Navbar */
-nav.navbar#deadline {
+nav.navbar.deadline {
   font-size: 14px;
   text-align: center;
   color: #fff;
   padding: 0.5em 1em;
 }
-nav.navbar#deadline span {
+nav.navbar.deadline span {
   margin: 0 auto;
   line-height: 1.1em;
 }
