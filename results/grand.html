@@ -37,7 +37,9 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,600">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/results.css">
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -105,10 +107,326 @@
       </div>
     </div>
     <!-- Grand Finals -->
+    <div class="row" style="margin-bottom: 0.5em;">
+      <div class="col-12">
+        <h2 class="text-success">Grand Finals</h2>
+      </div>
+    </div>
+    <!-- First Place -->
+    <div class="row winner first">
+      <div class="place col-4 col-sm-3 col-md-2 align-self-center">
+        <h3>1st</h3>
+      </div>
+      <div class="simfile col-8 col-sm-9 col-md-10">
+        <h4>TBA</h4>
+        <h5>TBA</h5>
+        <p>??? Points <i>($100 cash prize)</i></p>
+      </div>
+    </div>
+    <!-- Second Place -->
+    <div class="row winner second">
+      <div class="place col-4 col-sm-3 col-md-2 align-self-center">
+        <h3>2nd</h3>
+      </div>
+      <div class="simfile col-8 col-sm-9 col-md-10">
+        <h4>TBA</h4>
+        <h5>TBA</h5>
+        <p>??? Points <i>($50 cash prize)</i></p>
+      </div>
+    </div>
+    <!-- Third Place -->
+    <div class="row winner third">
+      <div class="place col-4 col-sm-3 col-md-2 align-self-center">
+        <h3>3rd</h3>
+      </div>
+      <div class="simfile col-8 col-sm-9 col-md-10">
+        <h4>TBA</h4>
+        <h5>TBA</h5>
+        <p>??? Points <i>($25 cash prize)</i></p>
+      </div>
+    </div>
+    <!-- Divider -->
     <div class="row">
       <div class="col-12">
-        <h2>Grand Finals</h2>
-        <p>To be announced.</p>
+        <hr style="margin-top: 0.25em;">
+      </div>
+    </div>
+    <!-- Full Details -->
+    <div class="row">
+      <div class="col-12">
+        <h3 style="text-align: center">Full Details</h3>
+        <!-- Tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <!-- List -->
+          <li class="nav-item">
+            <a class="nav-link active" role="tab" data-toggle="tab" href="#ranking">Ranking</a>
+          </li>
+          <!-- Oliver -->
+          <li class="nav-item">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#oliver">Oliver</a>
+          </li>
+          <!-- Kyle -->
+          <li class="nav-item">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#kyle">Kyle</a>
+          </li>
+          <!-- Mason -->
+          <li class="nav-item">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#mason">Mason</a>
+          </li>
+          <!-- Alex -->
+          <li class="nav-item">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#alex">Alex</a>
+          </li>
+          <!-- Derek -->
+          <li class="nav-item">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#derek">Derek</a>
+          </li>
+        </ul>
+        <!-- Tab Content -->
+        <div class="tab-content">
+          <!-- List Content -->
+          <div role="tabpanel" class="tab-pane active" id="ranking">
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Song</th>
+                    <th>Contestant</th>
+                    <th class="judge">Oliver</th>
+                    <th class="judge">Kyle</th>
+                    <th class="judge">Mason</th>
+                    <th class="judge">Alex</th>
+                    <th class="judge">Derek</th>
+                    <th class="total">Total</th>
+                    <th>Average</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#?</td>
+                    <td>TBA</td>
+                    <td>TBA</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td class="total">??</td>
+                    <td>??.?</td>
+                  </tr>
+                  <tr>
+                    <td>#?</td>
+                    <td>TBA</td>
+                    <td>TBA</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td>??</td>
+                    <td class="total">??</td>
+                    <td>??.?</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Oliver Content -->
+          <div role="tabpanel" class="tab-pane" id="oliver">
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Kyle Content -->
+          <div role="tabpanel" class="tab-pane" id="kyle">
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Mason Content -->
+          <div role="tabpanel" class="tab-pane" id="mason">
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Alex Content -->
+          <div role="tabpanel" class="tab-pane" id="alex">
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Derek Content -->
+          <div role="tabpanel" class="tab-pane" id="derek">
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -37,6 +37,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,600">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
   <link rel="stylesheet" type="text/css" href="../css/results.css">
   <!-- Scripts -->
@@ -46,7 +47,7 @@
 </head>
 <body>
   <!-- Header -->
-  <!-- Deadline -->
+  <!-- Round 1 Deadline -->
   <nav class="navbar deadline bg-danger">
     <span><strong>Round 1 Deadline:</strong> Insert Date Here</span>
   </nav>
@@ -166,7 +167,7 @@
         <ul class="nav nav-tabs" role="tablist">
           <!-- List -->
           <li class="nav-item">
-            <a class="nav-link active" role="tab" data-toggle="tab" href="#list">List</a>
+            <a class="nav-link active" role="tab" data-toggle="tab" href="#ranking">Ranking</a>
           </li>
           <!-- Oliver -->
           <li class="nav-item">
@@ -192,11 +193,12 @@
         <!-- Tab Content -->
         <div class="tab-content">
           <!-- List Content -->
-          <div role="tabpanel" class="tab-pane active" id="list">
+          <div role="tabpanel" class="tab-pane active" id="ranking">
             <div class="scrolltable">
               <table class="table table-striped">
                 <thead>
                   <tr>
+                    <th>Rank</th>
                     <th>Song</th>
                     <th>Contestant</th>
                     <th class="judge">Oliver</th>
@@ -211,6 +213,7 @@
                 </thead>
                 <tbody>
                   <tr>
+                    <td>#1</td>
                     <td>Fantastic Chart</td>
                     <td>Well-Renowned Step Artist</td>
                     <td>45</td>
@@ -223,6 +226,7 @@
                     <td class="bg-success">Grand</td>
                   </tr>
                   <tr>
+                    <td>#2</td>
                     <td>Excellent Chart</td>
                     <td>Man of Culture</td>
                     <td>42</td>
@@ -235,6 +239,7 @@
                     <td class="bg-success">Grand</td>
                   </tr>
                   <tr>
+                    <td>#3</td>
                     <td>Great Chart</td>
                     <td>ForceReckon</td>
                     <td>41</td>
@@ -247,6 +252,7 @@
                     <td class="bg-success">Grand</td>
                   </tr>
                   <tr>
+                    <td>#4</td>
                     <td>Good Chart</td>
                     <td>SkillChartz420</td>
                     <td class="bg-danger">36</td>
@@ -259,6 +265,7 @@
                     <td class="bg-warning">Redemption</td>
                   </tr>
                   <tr>
+                    <td>#5</td>
                     <td>Decent Chart</td>
                     <td>JustStartingOut</td>
                     <td>45</td>
@@ -271,6 +278,7 @@
                     <td class="bg-warning">Redemption</td>
                   </tr>
                   <tr>
+                    <td>#6</td>
                     <td>OK Chart</td>
                     <td>Someone Needing Improvement</td>
                     <td>45</td>
@@ -283,6 +291,7 @@
                     <td class="bg-danger">Disqualified</td>
                   </tr>
                   <tr>
+                    <td>#7</td>
                     <td>So-So Chart</td>
                     <td>Unknown</td>
                     <td>45</td>
@@ -295,6 +304,7 @@
                     <td class="bg-danger">Disqualified</td>
                   </tr>
                   <tr>
+                    <td>#8</td>
                     <td>Mediocre Chart</td>
                     <td>xXxN3WB13xXx</td>
                     <td>45</td>
@@ -307,6 +317,7 @@
                     <td class="bg-danger">Disqualified</td>
                   </tr>
                   <tr>
+                    <td>#9</td>
                     <td>Disappointing Chart</td>
                     <td>I.M.SofaKingWiiToddDed</td>
                     <td>45</td>
@@ -319,6 +330,7 @@
                     <td class="bg-danger">Disqualified</td>
                   </tr>
                   <tr>
+                    <td>#10</td>
                     <td>Goshdarn Awful Chart</td>
                     <td>One Daggowm Scrublord</td>
                     <td>45</td>
@@ -336,23 +348,198 @@
           </div>
           <!-- Oliver Content -->
           <div role="tabpanel" class="tab-pane" id="oliver">
-            <p>Oliver's Scores</p>
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
           <!-- Kyle Content -->
           <div role="tabpanel" class="tab-pane" id="kyle">
-            <p>Kyle's Scores</p>
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
           <!-- Mason Content -->
           <div role="tabpanel" class="tab-pane" id="mason">
-            <p>Mason's Scores</p>
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
           <!-- Alex Content -->
           <div role="tabpanel" class="tab-pane" id="alex">
-            <p>Alex's Scores</p>
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
           <!-- Derek Content -->
           <div role="tabpanel" class="tab-pane" id="derek">
-            <p>Derek's Scores</p>
+            <div class="scrolltable">
+              <table class="table table-striped">
+                <thead>
+                  <th>Song</th>
+                  <th>Contestant</th>
+                  <th><i class="fa fa-code-fork" aria-hidden="true"></i> Structure</th>
+                  <th><i class="fa fa-arrows" aria-hidden="true"></i> Patterning</th>
+                  <th><i class="fa fa-music" aria-hidden="true"></i> Rhythms</th>
+                  <th><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Originality</th>
+                  <th><i class="fa fa-refresh" aria-hidden="true"></i> Replayability</th>
+                  <th class="total">Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                  <tr>
+                    <td>Song Name</td>
+                    <td>Contestant Name</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td class="total">45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
