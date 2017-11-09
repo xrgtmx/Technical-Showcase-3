@@ -26,17 +26,6 @@ html, body {
 	font-size: 18px;
 	line-height: 1.5em;
 }
-html, body, .container-full, .container-wrap {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-.container-wrap td { 
-	vertical-align: middle; 
-	text-align: center;
-}
 b, strong, h2, th {
   font-weight: 600;
 }
@@ -61,13 +50,13 @@ hr { margin: 1.5em 0;}
 /* Deadline Navbar */
 nav.navbar.deadline {
   font-size: 14px;
+  line-height: 1.2em;
   text-align: center;
   color: #fff;
   padding: 0.5em 1em;
 }
-nav.navbar.deadline span {
+nav.navbar.deadline p {
   margin: 0 auto;
-  line-height: 1.1em;
 }
 
 /* Navbar */
@@ -82,9 +71,11 @@ li.nav-item.active a.nav-link {
 
 /* Big Boy Submit Section */
 div#bigboy {
-  background: #c00;
-  background: -webkit-linear-gradient(#f00,#c04);
-  background: linear-gradient(#f00,#c06);
+  background: #e00;
+  background: -webkit-linear-gradient(#e00,#c09);
+  background: -o-linear-gradient(#e00,#c09);
+  background: -moz-linear-gradient(#e00,#c09);
+  background: linear-gradient(#e00,#c09);
   color: #fff;
   margin-top: 2em;
   padding: 10em 0;
@@ -149,6 +140,9 @@ footer {
 }
 @media (max-width: 575px) {
   html, body { font-size: 14px; }
+  nav.navbar.deadline {
+    font-size: 12px;
+  }
   h1 {
     font-size: 4em;
   }

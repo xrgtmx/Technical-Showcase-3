@@ -1,41 +1,58 @@
 /*
-  countdown.js
+  countdown.css
   -----------------------------------------
   Technical Showcase 3
   Website designed by Ryan "xRGTMx" Gudonis
   © 2017
 */
 
-// Set the date of the deadline.
-var countdownDate = new Date("Dec 24, 2017 23:59:59 GMT-05:00").getTime();
+/* IT'S THE FINAL COUNTDOWN */
+div.countdown {
+  padding: 2em 1em; 
+  line-height: 1em;
+  text-align: center;
+  box-shadow: rgba(0,0,0,0.25) 0.25em 0.25em 1em;
+}
+div.countdown p#date {
+  font-size: 125%;
+  line-height: 100%;
+}
+div.countdown h1 {
+  font-family: "Roboto";
+  font-weight: 300;
+  letter-spacing: normal;
+  font-size: 7em;
+  text-shadow: rgba(0,0,0,0.15) 0.025em 0.025em 0.05em;
+  margin: 0;
+}
 
-// Update the count down every 1 second.
-setInterval(function() {
-  "use strict";
-
-  // Get date and time at the current moment
-  var now = new Date().getTime();
-  
-  // Find the distance between now an the countdown date
-  var distance = countdownDate - now;
-  
-  // Time calculations for days, hours, minutes, and seconds
-  var day = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hr  = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var min = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var sec = Math.floor((distance % (1000 * 60)) / 1000);
- 
-  // I like leading zeros, it makes the timer even.
-  function doubleDigit(n){
-    return (n < 10 ? "0" : "") + n;
+/* DoDoDooo Doooooooo, DoDoDo Do Doooooo */
+@media (max-width: 1199px) {
+  div.countdown h1 {
+    font-size: 5em;
   }
-  
-  // Output the result in elements
-  document.getElementById("days").innerHTML = doubleDigit(day);
-  document.getElementById("hours").innerHTML = doubleDigit(hr);
-  document.getElementById("minutes").innerHTML = doubleDigit(min);
-  document.getElementById("seconds").innerHTML = doubleDigit(sec);
-}, 1000);
+}
+@media (max-width: 991px) {
+  div.countdown h1 {
+    font-size: 4em;
+  }
+}
+@media (max-width: 767px) {
+  div.countdown h1 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 575px) {
+  div.countdown h1 {
+    font-size: 2.5em;
+  }
+  div.countdown p#date {
+    font-size: 110%;
+  }
+  .hidden-xs-down {
+    display: none;
+  }
+}
 
 /*
   The Final Countdown
