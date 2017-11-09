@@ -47,6 +47,19 @@ a:hover, a:active {
 }
 hr { margin: 1.5em 0;}
 
+/* Header */
+div#header {
+  width: 100%;
+  position: fixed;
+  z-index: 10000 !important;
+}
+div#header-offset {
+  margin-bottom: 7em;
+}
+div#header-offset-alt {
+  margin-bottom: 4.5em;
+}
+
 /* Deadline Navbar */
 nav.navbar.deadline {
   font-size: 14px;
@@ -61,6 +74,7 @@ nav.navbar.deadline p {
 
 /* Navbar */
 .navbar {
+  background: #fff;
   box-shadow: rgba(0,0,0,0.1) 0 1px 0;
 }
 .navbar-brand img {
@@ -125,6 +139,12 @@ footer {
 @media (max-width: 991px) {
   html, body { 
     font-size: 16px; 
+  }
+  div#header {
+    position: relative;
+  }
+  div#header-offset, div#header-offset-alt {
+    display: none;
   }
 }
 @media (max-width: 767px) {
