@@ -54,10 +54,7 @@ div#header {
   z-index: 10000 !important;
 }
 div#header-offset {
-  margin-bottom: 7em;
-}
-div#header-offset-alt {
-  margin-bottom: 4.5em;
+  margin-bottom: 6em;
 }
 
 /* Deadline Navbar */
