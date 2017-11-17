@@ -37,10 +37,10 @@ div.prize-box h4 {
   font-weight: 600;
   margin-bottom: 0;
 }
-div.prize-box div.prize-header, div.prize-box div.prize-first, div.prize-box div.prize-second, div.prize-box div.prize-third {
+div.prize-box div.prize-header, div.prize-box div.prize-first, div.prize-box div.prize-second, div.prize-box div.prize-third, div.prize-box div.prize-fourth {
   border: 2px solid #fff;
 }
-div.prize-box div.prize-first, div.prize-box div.prize-second, div.prize-box div.prize-third {
+div.prize-box div.prize-first, div.prize-box div.prize-second, div.prize-box div.prize-third, div.prize-box div.prize-fourth {
   padding: 0.5em 0.125em;
 }
 div.prize-box div.prize-header {
@@ -78,6 +78,17 @@ div.prize-box div.prize-third {
 div.prize-box div.prize-third h4 {
   color: #c60;
   text-shadow: #804000 1px 1px;
+}
+div.prize-box div.prize-fourth {
+  background: #ffccff;
+  background: -webkit-linear-gradient(#ffccff,#f279d4);
+  background: -o-linear-gradient(#ffccff,#f279d4);
+  background: -moz-linear-gradient(#ffccff,#f279d4);
+  background: linear-gradient(#ffccff,#f279d4);
+}
+div.prize-box div.prize-fourth h4 {
+  color: #c09;
+  text-shadow: #800060 1px 1px;
 }
 @media (max-width: 1199px) {
   div.prize-box h3 {
