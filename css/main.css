@@ -82,6 +82,7 @@ li.nav-item.active a.nav-link {
 
 /* Big Boy Submit Section */
 div#bigboy {
+  display: none;
   background: #e00;
   background: -webkit-linear-gradient(#e00,#c09);
   background: -o-linear-gradient(#e00,#c09);
@@ -116,6 +117,7 @@ a#bigbutton:hover, a#bigbutton:active {
 
 /* Footer */
 footer {
+  margin-top: 2em;
   background: #231f20;
   color: #fff;
   font-size: 75%;
