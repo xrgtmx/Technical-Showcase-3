@@ -54,7 +54,7 @@ div#header {
   z-index: 10000 !important;
 }
 div#header-offset {
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 /* Deadline Navbar */
@@ -64,6 +64,7 @@ nav.navbar.deadline {
   text-align: center;
   color: #fff;
   padding: 0.5em 1em;
+  display: none;
 }
 nav.navbar.deadline p {
   margin: 0 auto;
