@@ -54,7 +54,7 @@ div#header {
   z-index: 10000 !important;
 }
 div#header-offset {
-  margin-bottom: 4em;
+  margin-bottom: 6em;
 }
 
 /* Deadline Navbar */
@@ -64,7 +64,6 @@ nav.navbar.deadline {
   text-align: center;
   color: #fff;
   padding: 0.5em 1em;
-  display: none;
 }
 nav.navbar.deadline p {
   margin: 0 auto;
@@ -83,7 +82,6 @@ li.nav-item.active a.nav-link {
 
 /* Big Boy Submit Section */
 div#bigboy {
-  display: none;
   background: #e00;
   background: -webkit-linear-gradient(#e00,#c09);
   background: -o-linear-gradient(#e00,#c09);
@@ -118,7 +116,6 @@ a#bigbutton:hover, a#bigbutton:active {
 
 /* Footer */
 footer {
-  margin-top: 2em;
   background: #231f20;
   color: #fff;
   font-size: 75%;
