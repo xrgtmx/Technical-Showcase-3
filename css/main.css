@@ -82,6 +82,7 @@ li.nav-item.active a.nav-link {
 
 /* Big Boy Submit Section */
 div#bigboy {
+  display: none;
   background: #e00;
   background: -webkit-linear-gradient(#0c9,#cf0);
   background: -o-linear-gradient(#0c9,#cf0);
@@ -122,6 +123,7 @@ footer {
   line-height: 1.25em;
   text-align: center;
   padding: 1em 0.5em;
+  margin-top: 2em;
 }
 
 /* Media Queries */
