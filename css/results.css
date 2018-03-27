@@ -78,11 +78,11 @@ div.row.winner.third div.simfile {
   color: #804000;
 }
 div.row.winner.fourth {
-  background: #ffccff;
-  background: -webkit-linear-gradient(#ffccff,#f279d4);
-  background: -o-linear-gradient(#ffccff,#f279d4);
-  background: -moz-linear-gradient(#ffccff,#f279d4);
-  background: linear-gradient(#ffccff,#f279d4);
+  background: #ffddff;
+  background: -webkit-linear-gradient(#ffddff,#f279d4);
+  background: -o-linear-gradient(#ffddff,#f279d4);
+  background: -moz-linear-gradient(#ffddff,#f279d4);
+  background: linear-gradient(#ffddff,#f279d4);
   border-color: #f279d4;
 }
 div.row.winner.fourth div.place h3 {

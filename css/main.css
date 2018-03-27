@@ -54,11 +54,12 @@ div#header {
   z-index: 10000 !important;
 }
 div#header-offset {
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 /* Deadline Navbar */
 nav.navbar.deadline {
+	display: none;
   font-size: 14px;
   line-height: 1.2em;
   text-align: center;
